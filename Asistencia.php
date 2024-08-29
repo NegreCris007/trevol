@@ -7,9 +7,9 @@ class Asistencia{
 	//implementamos nuestro constructor
 public function __construct(){
 
-}    //implementamos nuestro constructor
+}   
 
-	//implementamos nuestro constructor
+	
 	
 public function verificarcodigo_persona($codigo_persona){
  	$sql = "SELECT * FROM usuarios WHERE codigo_persona='$codigo_persona'";
